@@ -1,0 +1,10 @@
+2020-08-25T12:12:57+00:00 CRITICAL Uncaught Error: Class 'WYSIJA' not found in C:\laragon\www\wooCommerce\wp-content\plugins\mailpoet-woocommerce-add-on\includes\mailpoet-woocommerce-core-functions.php:26
+Stack trace:
+#0 C:\laragon\www\wooCommerce\wp-content\plugins\mailpoet-woocommerce-add-on\includes\admin\class-mailpoet-woocommerce-admin-settings.php(255): mailpoet_lists()
+#1 C:\laragon\www\wooCommerce\wp-includes\class-wp-hook.php(287): MailPoet_WooCommerce_Add_On_Settings->output('')
+#2 C:\laragon\www\wooCommerce\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\wooCommerce\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wooCommerce\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#5 C:\laragon\www\wooCommerce\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wooCommerce\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-men dans C:\laragon\www\wooCommerce\wp-content\plugins\mailpoet-woocommerce-add-on\includes\mailpoet-woocommerce-core-functions.php à la ligne 26
+
